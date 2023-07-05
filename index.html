@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="icon" href="./image/icon.png" type="image/icon type">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+
+    <body onload="myload()">
+        <div class="loader-container" id = "loader">
+            <img src="./image/loader.gif">
+        </div>
+
+        <!--Header section start-->
+        <header>
+            <a href="#" class="logo"><i class="fa fa-utensils"></i>FoodEngine</a>
+            <nav class="navbar">
+                <a class="active" href="./index.html">Home</a>
+                <a href="./restaurant.html">Restaurant</a>
+                <a href="#" onclick="openAbout()">About</a>
+                <a href="./contactus.html" >Contact us</a>
+                <a class="feed" id="feedback">Feedback</a>
+                <a href="#">Orders</a>
+            </nav>
+
+            <div class="icons">
+                <i class="fas fa-bars" id="menu-bars"></i>
+                <i class="fas fa-search" id="search-icon"></i>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <a href="login.html" class="fas fa-sign-in-alt"></a>  
+            </div>
+
+            <div class="back">
+                <div class="container1" id="co1">
+                <div class="post">
+                <div class="text">Thanks for Rating us!</div>
+                <div class="edit">Edit</div>
+                <i class="fas fa-times" id="close"></i>
+            </div>
+
+            <div class="star-widget">
+                <input type="radio" name="rate" id="rate-5">
+                <label for="rate-5" class="fas fa-star"></label>
+                <input type="radio" name="rate" id="rate-4">
+                <label for="rate-4" class="fas fa-star"></label>
+                <input type="radio" name="rate" id="rate-3">
+                <label for="rate-3" class="fas fa-star"></label>
+                <input type="radio" name="rate" id="rate-2">
+                <label for="rate-2" class="fas fa-star"></label>
+                <input type="radio" name="rate" id="rate-1">
+                <label for="rate-1" class="fas fa-star"></label>
+
+                <form action="#">
+                    <i class="fas fa-times" id="close"></i>
+                    <h4></h4>
+                    <div class="textarea">
+                        <textarea cols="30" placeholder="Describe your experience"></textarea>
+                    </div>
+                
+                    <div class="btn">
+                        <button type="submit">Post</button>
+                    </div>
+                </form>
+                </div>    
+                </div>
+            </div>
+        </header>
+        <!-- Header section ends-->
+
+        <!--Search form starts-->
+        <form action="" id="search-form">
+            <input type="search" placeholder="search here..." name="" id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+            <i class="fas fa-times" id="close1"></i>
+        </form>
+        <!--Search form ends-->
+
+        <!--Home section start-->
+        <section class="home" id="home-section">
+
+        <!--Add starts-->
+        <div class="add">
+            <div class="add-container">
+                <img src="./image/banner.png">
+                <div class="textimg"><h2>Want To Fill In<br>Your Stomach?</h2>
+                <a href="./login.html"><button class="order">Order Now</button></a></div>
+            </div>
+        </div>
+        <!--Add ends-->
+        
+        <!--Top Restaurants starts-->
+        <div class="top-re">
+            <h2>Top Restaurants</h2>
+        </div>
+
+        <div class="table1">
+            <a href="./mcdonalds.php"><img src="./image/mcdonalds.jpg" height="150"><h4>McDonald's</h4><p>Burger, Chicken, IceCream</p></a>
+            <a href="./kfc.html"><img src="./image/kfc.jpg" height="150"><h4>KFC</h4><p>Chicken, Rice, Bucket</p></a>
+            <a href="./pizzahut.html"><img src="./image/pizzahut.jpg" height="150"><h4>Pizza Hut</h4><p>Pizza, Bread, Chicken, Salad</p></a>
+            <a href="./dominos.html"><img src="./image/dominos.jpg" height="150"><h4>Dominos</h4><p>Pizza, Drinks</p></a>
+            <a href="./burgerking.html"><img src="./image/burgerking.jpg" height="150"><h4>Burger King</h4><p>Burger, Drinks</p></a>
+            <a href="./marrybrown.html"><img src="./image/marrybrown.png" height="150"><h4>Marrybrown</h4><p>Chicken, Rice</p></a>
+        </div>
+        <!--Top Restaurants Ends-->
+
+
+
+
+
+
+
+
+        <!--About starts-->
+        <div id="about" class="about">
+            <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="about-overlay">
+                <h1>About us</h1>
+                <p>asdfghfghjcxdzhfgdjhgh;gfflhg;ig;kjgldhgflkgdsfgdgjrj</p>
+            </div>
+        </div>
+        <!--About Ends-->
+
+
+
+
+
+
+
+
+
+        <!--Footer Section starts-->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <!--Row 1 starts-->
+                    <div class="footer-col">
+                        <ul>
+                            <i class="fa fa-utensils"></i>
+                            <span>FoodEngine</span>
+                        </ul>
+                        
+                        <div class="map">
+                            <ul>
+                                <i class="fa fa-map-marker"></i>
+                                <span>Jalan Setia 1, Setia Tropika, <br>81300 Johor Bahru, Johor.</span>
+                            </ul>
+                        </div>
+
+                        <div class="mail">
+                            <ul>
+                                <i class="fa-solid fa-envelope"></i>
+                                <span>FoodEngine@gmail.com</span>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--Row 1 ends-->
+
+                    <!--Row 2 starts-->
+                    <div class="footer-col">
+                        <h4>FoodEngine</h4>
+                        <ul>
+                            <li><a href="#" onclick="openAbout()">about us</a></li>
+                            <li><a href="#">Our services</a></li>
+                            <li><a href="#">Privacy policy</a></li>
+                            <li><a href="#">Payment policy</a></li>
+                        </ul>
+                    </div>
+                    <!--Row 2 ends-->
+
+                    <!--Row 3 starts-->
+                    <div class="footer-col">
+                        <h4>Get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Delivery</a></li>
+                            <li><a href="#">My orders</a></li>
+                            <li><a href="#">Order Status</a></li>
+                            <li><a href="#">Payment options</a></li>
+                        </ul>
+                    </div>
+                    <!--Row 3 ends-->
+
+                    <!--Row 4 starts-->
+                    <div class="footer-col">
+                        <h4>Order Now</h4>
+                        <ul>
+                            <li><a href="./dishes.html">Restaurant</a></li>
+                            <li><a href="./mcdonalds.php">Mcdonald's</a></li>
+                            <li><a href="./kfc.html">KFC</a></li>
+                            <li><a href="./pizzahut.html">Pizza Hut</a></li>
+                            <li><a href="./dominos.html">Dominos</a></li>
+                            <li><a href="./burgerking.html">Burger King</a></li>
+                            <li><a href="./marrybrown.html">Marrybrown</a></li>
+                        </ul>
+                    </div>
+                    <!--Row 4 ends-->
+
+                    <!--Row 5 starts-->
+                    <div class="footer-col">
+                        <h4>Follow us</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/login"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/login"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--Footer Section Ends-->
+
+        <!--JavaScript starts-->
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script>
+            
+            let menu = document.querySelector('#menu-bars');
+            let navbar = document.querySelector('.navbar');
+            
+            menu.onclick = () => {
+                menu.classList.toggle('fa-times');
+                navbar.classList.toggle('active');
+            }
+            window.onscroll=() => {
+                menu.classList.remove('fa-times');
+                navbar.classList.remove('active');
+            }
+            document.querySelector('#search-icon').onclick=() => {
+                document.querySelector('#search-form').classList.toggle('active');
+            }
+            document.querySelector('#close1').onclick=() => {
+                document.querySelector('#search-form').classList.toggle('active');
+            }
+            document.querySelector("#feedback").onclick=() =>{
+            document.querySelector("#co1").classList.toggle("active");
+            }
+            document.querySelector("#close").onclick=() =>{
+            document.querySelector("#co1").classList.toggle("active");
+            }
+            
+
+            var preloader = document.getElementById("loading");
+            function myload() {
+                preloader.style.display="none";
+            }
+
+
+            const btn = document.querySelector("button");
+            const post = document.querySelector(".post");
+            const widget = document.querySelector(".star-widget");
+            const editBtn = document.querySelector(".edit");
+        
+            btn.onclick = () =>{
+            widget.style.display = "none";
+            post.style.display = "block";
+            editBtn.onclick = () =>{
+                widget.style.display = "block";
+                post.style.display = "none";
+            }
+            return false;
+            }
+            function openAbout(){
+                document.getElementById("about").style.width = "100%";
+
+            }
+            function closeNav(){
+            document.getElementById("about").style.width = "0%";
+            }
+            var preloader = document.getElementById("loader");
+        
+            function myloader(){
+                preloader.style.display = "none";
+            }
+            function mygrocery(){
+                confirm("Order Now on Whatsapp click ok to continue");
+            }
+        </script>
+        <!--JavaScript ends -->
+
+    </body>
+</html>

@@ -1,0 +1,1360 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant | KFC</title>
+    <link rel="icon" href="./image/kfc.jpg" type="image/icon type">
+    <link rel="stylesheet" href="css/kfc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+
+    <!-- Header section start -->
+    <header>
+        <a href="#" class="logo"><i class="fa fa-utensils"></i>FoodEngine</a>
+        <nav class="navbar">
+            <a class="active" href="./index.html">Home</a>
+            <a href="./restaurant.html">Restaurant</a>
+             <a href="#" onclick="openAbout()">about</a>
+            <a href="./contactus.html" >Contact us</a>
+            <a class="feed" id="feedback">feedback</a>
+            <a href="#">Orders</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <a href="./login.html" class="fas fa-sign-in-alt"></a>
+        </div>
+
+        <!-- search form -->
+        <form action="" id="search-form">
+            <input type="search" placeholder="search here..." name="" id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+            <i class="fas fa-times" id="close1"></i>
+        </form>
+        <!-- Search form ends -->
+    </header>
+    <!-- Header section ends -->
+
+    <!-- Rating Form starts -->
+    <div class="back">
+        <div class="container1" id="co1">
+            <div class="post">
+                <div class="text">Thanks for Rating us!</div>
+                <div class="edit">Edit</div>
+                <i class="fas fa-times" id="close"></i>
+            </div>
+            
+            <div class="star-widget">
+                <input type="radio" name="rate" id="rate-5">
+                <label for="rate-5" class="fas fa-star"></label>
+                <input type="radio" name="rate" id="rate-4">
+                <label for="rate-4" class="fas fa-star"></label>
+                <input type="radio" name="rate" id="rate-3">
+                <label for="rate-3" class="fas fa-star"></label>
+                <input type="radio" name="rate" id="rate-2">
+                <label for="rate-2" class="fas fa-star"></label>
+                <input type="radio" name="rate" id="rate-1">
+                <label for="rate-1" class="fas fa-star"></label>
+
+                <form action="#">
+                    <i class="fas fa-times" id="close"></i>
+                    <h4></h4>
+                    <div class="textarea">
+                        <textarea cols="30" placeholder="Describe your experience"></textarea>
+                    </div>
+                
+                    <div class="btn">
+                        <button type="submit">Post</button>
+                    </div>
+                </form>
+            </div>    
+        </div>
+    </div>
+    <!--Rating form ends-->
+
+<!--side bar-->
+
+<nav class="sidebar">
+    <div class="text">
+    <a href="./kfc.html"><i class="fa fa-home"></i></a>
+    <ul>
+        <li><a href="#familybucket" onclick="myfamilybucket()">Family Buckets</a></li>
+        <li><a href="#boxmeal" onclick="myboxmeal()">Box Meals</a></li>
+        <li><a href="#chicken" onclick="mychicken()">Chicken</a></li>
+        <li><a href="#burgertwister" onclick="myburgertwister()">Burger & Twister</a></li>
+        <li><a href="#nuggettender" onclick="mynuggettender()">Nugget & Tender</a></li>
+        <li><a href="#kidsmeal" onclick="mykidsmeal()">Kids Meals</a></li>
+        <li><a href="#addonside" onclick="myaddonside()">Add-On Sides</a></li>
+        <li><a href="#beverage" onclick="mybeverage()">Beverages</a></li>
+    </ul>
+</div>
+</nav>
+<!--Side bar ends-->
+
+<section class="home" id="home">
+    <div class="kfc">
+    <h2><img src="./image/kfc.jpg" height="300"></h2>
+    <div class="cont">
+        <iframe width="420" height="315"
+src="https://www.youtube.com/embed/A_7NSIZV6Fk?autoplay=1&mute=1&loop=1&controls=0&playlist=A_7NSIZV6Fk&loop=1">
+</iframe>
+        </div>
+        </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Beverages section start -->
+<section class="beverages" id="beverage">
+    <h2 class="kfc">KFC</h2>
+    <hr class="line">
+    <h4>Beverages</h4> 
+    <div class="box-beverage">
+        <div class="box">
+            <img src="./image/coca-cola m.jpg">
+            <h3>Coca-Cola (M)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>    
+            </div>
+            <span>RM 4.70</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/coca-cola zero m.jpg">
+            <h3>Coca-Cola Zero Sugar (M)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>        
+            </div>
+            <span>RM 4.70</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/sprite m.jpg">
+            <h3>Sprite (M)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 4.70</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/fantastrawberrym.jpg">
+            <h3>Fanta Strawberry (M)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 4.70</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/coca-cola-glass-large.png">
+            <h3>Coca-Cola (L)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 5.70</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/coca-cola-zero-sugar-glass-large.png">
+            <h3>Coca-Cola Zero Sugar (L)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 5.70</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/sprite-glass-large.png">
+            <h3>Sprite (L)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 5.70</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/fanta-strawberry-glass-large_1.png">
+            <h3>Fanta Strawberry (L)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 5.70</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/milom.jpg">
+            <h3>Iced Milo (M)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 6.80</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/icelemonteam.jpg">
+            <h3>Heaven & Earth Ice Lemon Tea (M)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 5.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/minutemaidm.jpg">
+            <h3>Minute Maid Refresh Orange (M)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 5.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/sjoram.jpg">
+            <h3>Sjora Mango Peach (M)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 5.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/iced-milo-small.png">
+            <h3>Iced Milo (S)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 5.70</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/heaven-earth-ice-lemon-tea-glass-small.png">
+            <h3>Heaven & Earth Ice Lemon Tea (S)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 4.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/minute-maid-refresh-orange-glass-small.png">
+            <h3>Minute Maid Refresh Orange (S)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 4.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/sjora-mango-peach-small_1.png">
+            <h3>Sjora Mango Peach (S)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 4.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/mineral-water-600ml_.png">
+            <h3>Mineral Water (600ml)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 1.00</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+    </div>
+</section>
+<!-- Beverages section ends -->
+
+
+
+
+
+<!-- Add-on section start -->
+<section class="addonsides" id="addonside">
+    <h2 class="kfc">KFC</h2>
+    <hr class="line">
+    <h4>Add-On Sides</h4>
+    <div class="box-addonside">
+        <div class="box">
+            <img src="./image/cheezy-wedges-large.png">
+            <h3>Cheezy Wedges (L)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 7.49</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/cheezy-popcorn-bowl.png">
+            <h3>Cheezy Popcorn Bowl</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 7.49</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/loaded-potato-bowl_1.png">
+            <h3>Loaded Potato Bowl</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 7.49</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/crispier-fries-medium.png">
+            <h3>Crispier Fries (M)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 4.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/crispier-fries-large.png">
+            <h3>Crispier Fries (L)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 6.80</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/whipped-potato-4oz.png">
+            <h3>Whipped Potato (4oz)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 3.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/coleslaw-4oz_1.png">
+            <h3>Coleslaw (4oz)</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 3.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/jalapeno-cheese-sauce.png">
+            <h3>Jalapeno Cheese Sauce</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 2.00</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+    </div>
+</section>
+<!-- Add-on section ends -->
+
+
+
+
+
+<!-- Kids Meal section start -->
+<section class="kidsmeals" id="kidsmeal">
+    <h2 class="kfc">KFC</h2>
+    <hr class="line">
+    <h4>Kids Meals</h4>
+    <div class="box-kidsmeal">
+        <div class="box">
+            <img src="./image/kids-meal-set-a_1.png">
+            <h3>Kids Meal Combo A</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 12.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/kids-meal-set-b.png">
+            <h3>Kids Meal Combo B</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 12.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/kids-meal-set-c.png">
+            <h3>Kids Meal Combo C</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 12.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/kids-meal-set-d.png">
+            <h3>Kids Meal Combo D</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 13.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+    </div>
+</section>
+<!-- Kids Meal section ends -->
+
+
+
+
+
+<!-- Nuggets & Tender section start -->
+<section class="nuggettenders" id="nuggettender">
+    <h2 class="kfc">KFC</h2>
+    <hr class="line">
+    <h4>Nugget & Tender</h4>
+    <div class="box-nuggettender">
+        <div class="box">
+            <img src="./image/6-pc-nuggets_1.png">
+            <h3>6 pcs Nuggets </h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 11.49</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/9-pc-nuggets.png">
+            <h3>9 pcs Nuggets</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 14.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/6-pc-nuggets-combo_2.png">
+            <h3>6 pcs Nuggets Combo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 16.49</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/9-pc-nuggets-combo_2.png">
+            <h3>9 pcs Nuggets Combo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 19.49</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/3-pc-crispy-tenders_1_1.png">
+            <h3>3 pcs Crispy Tenders</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 10.49</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/crispy-tenders-combo-a_1.png">
+            <h3>Crispy Tenders Combo A</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 20.49</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/crispy-tenders-combo-b.png">
+            <h3>Crispy Tenders Combo B</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 21.49</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+    </div>
+</section>
+<!-- Nuggets & Tender section ends -->
+
+
+
+
+
+<!-- Burger & Twister section start -->
+<section class="burgertwisters" id="burgertwister">
+    <h2 class="kfc">KFC</h2>
+    <hr class="line">
+    <h4>Burger & Twister</h4>
+    <div class="box-burgertwister">
+        <div class="box">
+            <img src="./image/cheezy-or-deluxe.png">
+            <h3>Cheezy O.R. Deluxe</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 15.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/zinger-classic.png">
+            <h3>Zinger Classic</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 13.49</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/colonel-classic.png">
+            <h3>Colonel Classic</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 8.49</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/colonel-stacker_1.png">
+            <h3>Colonel Stacker</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 12.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/zinger-cheezy.png">
+            <h3>Zinger Cheezy</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 14.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/zinger-stacker.png">
+            <h3>Zinger Stacker</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 18.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/zinger-cheezilla_1.png">
+            <h3>Zinger Cheezilla</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 20.49</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/cheezy-twister_2.png">
+            <h3>Cheezy Twister</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 14.49</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+    </div>
+</section>
+<!-- Burger & Twister section ends -->
+
+
+
+
+
+<!-- Chicken section start -->
+<section class="chickens" id="chicken">
+    <h2 class="kfc">KFC</h2>
+    <hr class="line">
+    <h4>Chicken</h4>
+    <div class="box-chicken">
+        <div class="box">
+            <img src="./image/dinner-plate-butterscotch.png">
+            <h3>Dinner Plate</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 20.49</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/snack-plate-butterscotch.png">
+            <h3>Snake Plate</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 15.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/2-pc-chicken.png">
+            <h3>2 pcs Chicken</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 14.10</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/3-pc-chicken.png">
+            <h3>3 pcs Chicken</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 20.49</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/5-pc-chicken.png">
+            <h3>5 pcs Chicken</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 33.49</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/9-pc-chicken.png">
+            <h3>9 pcs Chicken</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 56.30</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/15-pc-chicken.png">
+            <h3>15 pcs Chicken</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 91.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+    </div>
+</section>
+<!-- Chicken section ends -->
+
+
+
+
+
+<!-- Box Meals section start -->
+<section class="boxmeals" id="boxmeal">
+    <h2 class="kfc">KFC</h2>
+    <hr class="line">
+    <h4>Box Meals</h4>
+    <div class="box-boxmeal">
+        <div class="box">
+            <img src="./image/signature-box-classic-whipped-potato_2.png">
+            <h3>Signature Box</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 22.49</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/colonel-classic-box-whipped-potato_2.png">
+            <h3>Colonel Box</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 18.49</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/colonel-stacker_1.png">
+            <h3>Colonel Stacker Box</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 21.49</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/zinger-cheezy-box-whipped-potato.png">
+            <h3>Zinger Cheezy Box</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 24.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/stacker-box-whipped-potato_2.png">
+            <h3>Stacker Box</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 27.49</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/cheezilla-box-whipped-potato_3.png">
+            <h3>Cheezilla Box</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 28.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/snacker-box-whipped-potato_2.png">
+            <h3>Snacker Box</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 15.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/twister-box-whipped-potato.png">
+            <h3>Twister Box</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 22.49</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+    </div>
+</section>
+<!-- Box Meals section ends -->
+
+
+
+
+
+<!-- Family Buckets section start -->
+<section class="familybuckets" id="familybucket">
+    <h2 class="kfc">KFC</h2>
+    <hr class="line">
+    <h4>Family Buckets</h4>
+    <div class="box-familybucket">
+        <div class="box">
+            <img src="./image/9-pc-chicken-combo_1.png">
+            <h3>9 pcs Combo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 68.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/15-pc-chicken-combo_1.png">
+            <h3>15 pcs Combo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 99.99</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/variety-box-b_1.png">
+            <h3>Variety Box B</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 78.60</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="./image/variety-box-c_1.png">
+            <h3>Variety Box C</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>RM 93.60</span>
+            <br>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+    </div>
+</section>
+<!-- Family Buckets section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="about" class="about">
+    <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="about-overlay">
+        <h1>About us</h1>
+        <p>Launched in 2023, Our technology platform connects customers,<br> 
+        restaurant partners and delivery partners, serving their multiple needs. <br>
+        Customers use our platform to search and discover restaurants, read and write customer 
+        generated reviews and view and upload photos,<br> order food delivery, book a table and make 
+        payments while dining-out at restaurants. On the other hand,<br> we provide restaurant partners 
+        with industry-specific marketing tools which enable them to engage and acquire customers<br> to 
+        grow their business while also providing a reliable <br>and efficient last mile delivery service. 
+        We also operate a one-stop procurement solution, <br>Hyperpure, which supplies high quality ingredients 
+        and kitchen products to restaurant partners.<br> We also provide our delivery partners with transparent 
+        and flexible earning opportunities. </p>
+    </div>
+</div>
+<!--Footer Section-->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            
+            <div class="footer-col">
+                <ul>
+                    <i class="fa fa-utensils"></i>
+                    <span>Foodies.</span>
+                </ul>
+                <div class="map">
+                    <ul>
+                        <i class="fa fa-map-marker"></i>
+                            <span>5th Floor,
+                                A-118,Sangareddy, Hyderabad, Telangana - 502001
+                            </span>
+                    </ul>
+                    </div>
+                <div class="mail">
+                    <ul>
+                        <i class="fas fa-inbox"></i>
+                        <span>
+                            support@foodies.com
+                        </span>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Foodies</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">Our services</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Payment policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">My orders</a></li>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Payment options</a></li>
+
+                </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Order Now</h4>
+                    <ul>
+                        <li><a href="#">Biryani's</a></li>
+                        <li><a href="#">Restaurants</a></li>
+                        <li><a href="#">Starters</a></li>
+                        <li><a href="#">Fast food</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+            </div>
+            
+
+</footer>
+
+<!--Home  ends-->
+
+
+<!--Java Script-->
+    <script>
+        let menu = document.querySelector('#menu-bars');
+        let navbar = document.querySelector('.navbar');
+        
+        menu.onclick = () => {
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+        }
+        window.onscroll=() => {
+            menu.classList.remove('fa-times');
+            navbar.classList.remove('active');
+        }
+        document.querySelector('#search-icon').onclick=() => {
+            document.querySelector('#search-form').classList.toggle('active');
+        }
+        document.querySelector('#close1').onclick=() => {
+            document.querySelector('#search-form').classList.toggle('active');
+        }
+        document.querySelector("#feedback").onclick=() =>{
+        document.querySelector("#co1").classList.toggle("active");
+    }
+        document.querySelector("#close").onclick=() =>{
+        document.querySelector("#co1").classList.toggle("active");
+
+    }
+    
+    function myfamilybucket(){
+        document.getElementById("familybucket").style.display="block";
+    }
+    function myboxmeal(){
+        document.getElementById("boxmeal").style.display="block";
+    }
+    function mychicken(){
+        document.getElementById("chicken").style.display="block";
+    }
+    function myburgertwister(){
+        document.getElementById("burgertwister").style.display="block";
+    }
+    function mynuggettender(){
+        document.getElementById("nuggettender").style.display="block";
+    }
+    function mykidsmeal(){
+        document.getElementById("kidsmeal").style.display="block";
+    }
+    function myaddonside(){
+        document.getElementById("addonside").style.display="block";
+    }
+    function mybeverage(){
+        document.getElementById("beverage").style.display="block";
+    }
+    
+        const btn = document.querySelector("button");
+        const post = document.querySelector(".post");
+        const widget = document.querySelector(".star-widget");
+        const editBtn = document.querySelector(".edit");
+    
+        btn.onclick = () =>{
+        widget.style.display = "none";
+        post.style.display = "block";
+        editBtn.onclick = () =>{
+            widget.style.display = "block";
+            post.style.display = "none";
+        }
+        return false;
+    }
+        function openAbout(){
+        document.getElementById("about").style.width = "100%";
+
+    }
+    function closeNav(){
+        document.getElementById("about").style.width = "0%";
+    }
+   
+       
+    </script>
+    <!--JavaScript ends -->
+
+</body>
+</html>
