@@ -16,7 +16,7 @@ function component($productname,$productprice,$productimg){
     <a href="#" class="btn">Add to cart</a>
 </div>
     ';
-    return $element;
+    echo $element;
 }
 
 
