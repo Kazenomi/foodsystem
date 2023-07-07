@@ -131,10 +131,10 @@ src="https://www.youtube.com/embed/A_7NSIZV6Fk?autoplay=1&mute=1&loop=1&controls
     <div class="box-condiment">
     <!-- product card starts here -->
         <?php
-      echo component( "Barbeque Sauce",0.94,"image/barbequesauce.png ");
-      echo component( "Sweet & Sour Sauce",0.94,"image/sweet&soursauce.png ");
-        echo component( "McChicken Sauce",0.94,"./image/mcchickensauce.png ");
-      echo component( "Sambal",0.94,"image/sambal.png");
+       component( "Barbeque Sauce",0.94,"image/barbequesauce.png ");
+       component( "Sweet & Sour Sauce",0.94,"image/sweet&soursauce.png ");
+         component( "McChicken Sauce",0.94,"./image/mcchickensauce.png ");
+       component( "Sambal",0.94,"image/sambal.png");
       ?>
       
     </div>
